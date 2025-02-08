@@ -20,7 +20,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: transform 0.2s;
-}    
+}
 
 .navbar a:hover {
     transform: scale(0.95);.
@@ -36,7 +36,7 @@ body {
     border: darkred;
 }
 #contactinfo {
-    
+
     font-family: "Noto Sans", sans-serif;
     font-weight:410 ;
     font-size:20px ;
@@ -58,4 +58,17 @@ body {
 }
 #abth {
     font-size: 400px;
+}
+#landbot {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px;  /* Adjust the distance from the right */
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better look */
+    font: 'Roboto Flex';
+    text-decoration: none;
 }
